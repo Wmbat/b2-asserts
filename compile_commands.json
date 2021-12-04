@@ -1,0 +1,103 @@
+[
+ {
+  "directory": "/home/wmbat/projects/build2_ports/asserts/asserts",
+  "arguments": [
+   "g++",
+   "-I/home/wmbat/projects/build2_ports/asserts/gcc-debug-asan/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts/asserts",
+   "-O0",
+   "-g",
+   "-fsanitize=address",
+   "-fPIC",
+   "-std=c++23",
+   "-o",
+   "../gcc-debug-asan/asserts/asserts/assert.so.o",
+   "-c",
+   "-x",
+   "c++",
+   "/home/wmbat/projects/build2_ports/asserts/asserts/asserts/assert.cpp"
+  ],
+  "file": "/home/wmbat/projects/build2_ports/asserts/asserts/asserts/assert.cpp"
+ },
+ {
+  "directory": "/home/wmbat/projects/build2_ports/asserts/asserts",
+  "arguments": [
+   "g++",
+   "-I/home/wmbat/projects/build2_ports/asserts/gcc-debug-asan/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts/asserts",
+   "-O0",
+   "-g",
+   "-fsanitize=address",
+   "-std=c++23",
+   "-o",
+   "../gcc-debug-asan/asserts/tests/basics/tests/tokens_and_highlighting.o",
+   "-c",
+   "-x",
+   "c++",
+   "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/tokens_and_highlighting.cpp"
+  ],
+  "file": "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/tokens_and_highlighting.cpp"
+ },
+ {
+  "directory": "/home/wmbat/projects/build2_ports/asserts/asserts",
+  "arguments": [
+   "g++",
+   "-I/home/wmbat/projects/build2_ports/asserts/gcc-debug-asan/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts/asserts",
+   "-O0",
+   "-g",
+   "-fsanitize=address",
+   "-std=c++23",
+   "-o",
+   "../gcc-debug-asan/asserts/tests/basics/tests/literals.o",
+   "-c",
+   "-x",
+   "c++",
+   "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/literals.cpp"
+  ],
+  "file": "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/literals.cpp"
+ },
+ {
+  "directory": "/home/wmbat/projects/build2_ports/asserts/asserts",
+  "arguments": [
+   "g++",
+   "-I/home/wmbat/projects/build2_ports/asserts/gcc-debug-asan/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts/asserts",
+   "-O0",
+   "-g",
+   "-fsanitize=address",
+   "-std=c++23",
+   "-o",
+   "../gcc-debug-asan/asserts/tests/basics/tests/disambiguation.o",
+   "-c",
+   "-x",
+   "c++",
+   "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/disambiguation.cpp"
+  ],
+  "file": "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/disambiguation.cpp"
+ },
+ {
+  "directory": "/home/wmbat/projects/build2_ports/asserts/asserts",
+  "arguments": [
+   "g++",
+   "-I/home/wmbat/projects/build2_ports/asserts/gcc-debug-asan/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts",
+   "-I/home/wmbat/projects/build2_ports/asserts/asserts/asserts",
+   "-O0",
+   "-g",
+   "-fsanitize=address",
+   "-std=c++23",
+   "-o",
+   "../gcc-debug-asan/asserts/tests/basics/tests/test_program.o",
+   "-c",
+   "-x",
+   "c++",
+   "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/test_program.cpp"
+  ],
+  "file": "/home/wmbat/projects/build2_ports/asserts/asserts/tests/basics/tests/test_program.cpp"
+ }
+]

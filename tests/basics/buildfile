@@ -1,0 +1,3 @@
+import libs = asserts%lib{asserts}
+
+./: exe{test}: {cxx}{**} $libs

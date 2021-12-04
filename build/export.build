@@ -1,0 +1,6 @@
+$out_root/
+{
+  include asserts/
+}
+
+export $out_root/asserts/$import.target
